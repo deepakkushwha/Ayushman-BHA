@@ -1,0 +1,733 @@
+.app {
+  font-family: 'Mulish', sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 20px;
+  height: 100vh;
+  background-color: #f8f9fd;
+}
+
+.h1Style {
+  font-family: Roboto, Helvetica, Arial, sans-serif;
+  font-size: 36px;
+  line-height: 44px;
+  font-weight: 700;
+}
+
+.mainleft h2 {
+  font-size: 30px;
+}
+
+.buttonPos {
+  left: 90% !important;
+
+}
+
+.displayRespo {
+  display: flex;
+}
+
+.logo {
+  width: 148px;
+  position: relative;
+  z-index: 9;
+}
+
+
+input[type="submit"] {
+  margin-top: 10px;
+  cursor: pointer;
+  font-size: 15px;
+  background: #01d28e;
+  border: 1px solid #01d28e;
+  color: #fff;
+  padding: 10px 20px;
+}
+
+input[type="submit"]:hover {
+  background: #6cf0c2;
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+}
+
+.login-form {
+  background-color: white;
+  padding: 2rem;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.list-container {
+  display: flex;
+}
+
+.error {
+  color: red;
+  font-size: 12px;
+}
+
+.title {
+  font-size: 25px;
+  margin-bottom: 20px;
+}
+
+.input-container {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin: 10px;
+}
+
+.bgnavbar {
+  background-image: linear-gradient(#0d72f6, #0060df);
+  --bs-navbar-color: #ffffff !important;
+  height: 113px;
+  padding: 0px;
+}
+
+.navbar-nav {
+  color: #ffffff !important;
+}
+
+.mainleft {
+  text-align: initial;
+  line-height: 4rem !important;
+}
+
+.captchabodr {
+  border: 1px solid lightgray;
+  border-radius: 9px;
+  padding: 13px;
+}
+
+.tabcontent {
+  border: 1px solid #dee2e6;
+  padding: 1.3rem;
+  border-radius: 0.375rem;
+
+  &::after {
+    content: "";
+    display: block;
+    clear: both;
+  }
+}
+
+.forget {
+  color: rgb(214, 96, 37);
+  font-weight: 500;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.abhapart1 {
+  width: 60px !important;
+  border: 1px solid #dee2e6;
+}
+
+.abhano input[type="text"] {
+  margin-right: 15px;
+  width:85px;
+  letter-spacing:2px;
+  text-align: center;
+  display: inline-block;
+}
+
+.nav {
+  --bs-nav-link-color: #000000 !important;
+  --bs-nav-link-hover-color: #000000 !important;
+  font-weight: 500;
+}
+
+.redasterisk {
+  color: red;
+}
+
+.navbar-nav {
+  --bs-nav-link-hover-color: #ffffff !important;
+}
+
+.navbar-nav .nav-link.show {
+  color: #ffffff !important;
+}
+
+.captchastyle {
+  align-items: center;
+}
+
+.captchastyle svg {
+  margin-left: 5px;
+  height: 25px;
+}
+
+.captchastyle .form-control {
+  margin-left: 5px;
+}
+
+.captchades {
+  width: 180px;
+  margin: 0px;
+  color: blueviolet;
+  font-size: 18px;
+  font-weight: 700;
+  font-family: cursive;
+}
+
+.dropdown-menu {
+  background-color: rgb(38, 68, 136) !important;
+  --bs-dropdown-link-hover-bg: #162a61 !important;
+}
+
+.dropdown-item {
+  color: #ffffff !important;
+}
+
+#navbarDropdown {
+  color: #ffffff !important;
+}
+
+.tophead {
+  align-items: center;
+}
+
+.tophead h1 {
+
+  font-weight: 700;
+  color: #162a61;
+}
+
+li[title]:hover::after {
+  content: attr(title);
+  position: absolute;
+  color: #000000;
+  box-shadow: 0px 2px 7px 0px #cfcece;
+  top: 98%;
+  width: 15%;
+  padding-left: 5px;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.createabha {
+  margin-top: 7rem !important;
+}
+
+
+
+
+
+.loginBtn {
+
+  background-color: #f67912 !important;
+  border: none;
+  color: #fff !important;
+  cursor: pointer;
+  display: inline-block;
+  letter-spacing: 2px;
+  margin: 0 20px;
+  overflow: hidden;
+  padding: 10px 20px;
+  position: relative;
+
+}
+
+
+
+.loginBtn:before {
+  content: "";
+  position: absolute;
+  height: 150px;
+  width: 50px;
+  background: #fff;
+  left: -55px;
+  top: -40px;
+  transform: rotate(37deg);
+  transition: all .3s;
+  opacity: 0.3;
+}
+
+.loginBtn:hover:before {
+  left: 95%;
+}
+
+
+
+.optiondiv {
+  border: 1px solid lightgray;
+  padding: 19px 0px;
+}
+
+.otp {
+  width: 2em !important;
+}
+
+nav-tabs {
+  border-bottom: 2px solid #f67912 !important;
+}
+
+.nav-tabs .nav-link.active {
+  background: #f67912 !important;
+  color: #fff !important;
+  box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px !important;
+}
+
+input[type="radio"i] {
+  height: 20px;
+  width: 20px;
+  vertical-align: middle;
+}
+
+.radio-label {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.loader-class {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+}
+
+.label-text {
+  margin-bottom: 8px !important;
+  font-size: 15px;
+  font-weight: 500;
+}
+
+#accordionExample {
+  margin: 20px 0px;
+}
+
+.card {
+  padding: 8px;
+  overflow: auto;
+}
+
+.nopadding {
+  padding: 0px !important;
+}
+
+.authentication .phonenumber {
+  margin: 30px 0px;
+}
+
+.number-section {
+  position: relative;
+}
+
+.number-section .countrynumber {
+  position: absolute;
+  border-top-left-radius: 0.5rem;
+  border-bottom-left-radius: 0.5rem;
+  background: #f1f1f1;
+  top: 0;
+  color: black;
+  z-index: 22;
+  font-size: 18px;
+  left: 0;
+  bottom: 0;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  padding: 10px;
+}
+
+.number-section .form-control {
+  padding-left: 60px !important;
+  border-radius: 0.5rem !important;
+
+}
+
+.loginResponse {
+
+  padding: 15px 28px !important;
+  font-size: 16px !important;
+
+
+}
+
+.form-control {
+  font-size: 16px !important;
+}
+
+.abhacardimg {
+  width: 80%;
+  display: block;
+  margin: 0 auto;
+}
+
+.abhano {
+  display: flex;
+  align-items: center;
+}
+
+.abhano .part1 {
+  width: 48px !important;
+}
+
+.authentication :where(.vi__container) {
+  display: flex;
+  gap: 8px;
+  height: 50px;
+  width: 400px;
+}
+
+.timer {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 8px;
+}
+
+.timer label {
+  font-size: 14px;
+}
+
+.timer .resend {
+  cursor: pointer;
+  color: #f67912;
+}
+
+
+.overlay {
+  height: 100%;
+  position: fixed;
+  background: rgba(0, 0, 0, 0.15);
+  top: 0;
+  left: 0;
+  z-index: 999;
+  bottom: 0;
+  right: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.numberarrow input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  display: none;
+}
+
+
+.bgImgStyle {
+  display: inline-block;
+  position: relative;
+
+  .curvelogo {
+    position: absolute;
+    bottom: -29px;
+    left: -40px;
+    z-index: -1;
+  }
+}
+
+.logo-title {
+  color: #fff;
+  padding-left: 25px;
+  padding-top: 29px;
+  white-space: normal;
+  font-size: 2rem;
+  font-weight: 600;
+}
+
+.bgImgStyle:after {
+  content: "";
+  background-image: url('../assets/logo-around-nackground.png');
+  position: absolute;
+  width: 229px;
+  height: 69px;
+  left: -39px;
+  bottom: -21px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  z-index: 1;
+}
+
+.navbar-brand {
+  display: flex;
+  align-items: flex-start;
+}
+
+.loginRespo {
+  margin-top: -58px;
+}
+
+.abha-radio-option {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin-bottom: 10px;
+
+  .select-option {
+    display: flex;
+    gap: 46px;
+    margin-top: 10px;
+    margin-bottom: 15px;
+
+    input {
+      margin-right: 10px;
+    }
+  }
+}
+
+.agree-checkbox {
+  margin-right: 10px;
+  width: 20px !important;
+  height: 20px !important;
+}
+
+.infotext i {
+  margin-right: 5px;
+}
+
+.create-abha-card {
+  .card {
+    cursor: pointer;
+  }
+
+  .abha-number {
+    font-weight: 500;
+    margin-bottom: 10px;
+    line-height: 18px;
+
+    span {
+      font-weight: 400;
+      display: block;
+      color: #085fab;
+    }
+  }
+
+  .view {
+    background-color: #b2b2b2;
+  }
+
+  .view:hover {
+    background-color: #9f9c9c;
+  }
+
+  img {
+    max-width: 100%;
+  }
+
+  .username {
+    font-size: 16px;
+    font-weight: 500;
+    margin: 0;
+  }
+
+  .verified {
+    font-weight: 600;
+    color: #069f06;
+    font-size: 13px;
+  }
+
+  .pending {
+    font-weight: 600;
+    color: #e36b2d;
+    font-size: 13px;
+  }
+}
+
+
+
+.password-section {
+  display: flex;
+}
+
+.visiblePassword {
+  margin-left: 10px !important;
+  margin-top: 12px;
+
+  i {
+    font-size: 20px;
+    cursor: pointer;
+  }
+}
+
+.form-check-input {
+  border: 1px solid #000 !important;
+}
+
+.viewprofile {
+  text-align: center;
+  padding: 16px 0px 2px 0px;
+  color: #1c1c1c;
+
+}
+
+.viewprofile:hover {
+  color: #ffffff;
+}
+
+.benefits {
+  font-size: 2rem;
+}
+
+.banner-button-section{
+  display: flex;
+  gap: 20px;
+}
+ .card-section {
+  background-color: #0465e6;
+  margin: 80px 0 0 0 ;
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 30px;
+}
+.abhaAdddress-page{
+  .timer{
+    margin-right: 18px;
+  }
+}
+
+@media(max-width: 768px) {
+  .optiondiv{ width: 100%; padding: 20px; flex-direction: column;
+  .radio-label {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+  }
+}
+  .abhaAdddress-page{
+    .timer{
+      margin-right: 32px;
+    }
+  }
+  .verify-confirm-otp{
+    .timer{
+      width: 88%;
+    }
+  }
+  .vi__wrapper {
+    width: 100%;
+    overflow: hidden;
+    overflow-x: auto;
+  }
+
+  .containerRespo {
+    flex-wrap: nowrap !important;
+  }
+
+  .loginResponse {
+    padding: 8px 42px !important;
+    font-size: 10px !important;
+  }
+
+  .logo-title {
+    font-size: 27px;
+  }
+
+  .banner-contianer {
+    .btn {
+      margin-top: 20px;
+      margin-bottom: 0px;
+    }
+
+    .image-reponsive {
+      display: none;
+    }
+
+    .card-section .abha-card {
+      margin: 0px !important;
+    }
+  }
+
+  .abhano input[type="text"] {
+    margin-right: 15px;
+    width: 20%;
+    text-align: center;
+    display: inline-block;
+
+  }
+
+  .create-btn {
+    margin-top: 10px;
+  }
+}
+
+@media (max-width: 600px) {
+  .optiondiv .radio-label{ font-size: 15px;  }
+  .abhaaddress  .card-body, .authentication .card-body{padding: 0px !important;}
+  .authentication .password-section { width: 95%;}
+  .logo-title{padding-top: 19px;}
+  .banner-button-section{ display: flex; flex-direction: column; gap: 0; }
+  .card-section {margin: 40px 0 0 0;}
+  .authentication .verify-mobile-section{ padding: 0px  !important;}
+  .password-input-box{ width: 100%;}
+  .authentication :where(.vi__container) { gap: 3px !important; width: 322px !important;}
+
+
+  .bgImgStyle:after {
+    display: none;
+  }
+  .logo {
+    width: 148px;
+  }
+
+  .loginRespo {
+    display: none;
+  }
+
+  
+
+  .timer label {
+    // font-size: 9px;
+  }
+
+  .buttonPos {
+    left: 2% !important;
+
+  }
+
+  .image-reponsive {
+    display: none;
+  }
+
+  .curvelogo {
+    display: none;
+  }
+
+  .logo {
+    width: 84px;
+  }
+
+  .heading {
+    width: 43%;
+    font-size: 13px;
+  }
+
+  .banner-contianer {
+    margin-top: 16px !important;
+  }
+
+  .displayRespo {
+    display: block;
+  }
+
+  .createabha {
+    margin-top: 3rem !important;
+  }
+
+  .cardRespo {
+    overflow: auto !important;
+  }
+
+  .benefits {
+    font-size: 30px;
+  }
+
+  .collection-stepper .aadhar-container {
+    width: 200%;
+  }
+
+  .cardRespo {
+    padding: 0px !important;
+  }
+}
+
+@media (max-width: 425px) {
+  .logo-title { font-size: 22px; }
+}

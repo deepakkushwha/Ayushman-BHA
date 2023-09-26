@@ -1,0 +1,107 @@
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.create-btn{
+display: inline-flex;
+-webkit-box-align: center;
+align-items: center;
+-webkit-box-pack: center;
+justify-content: center;
+position: relative;
+box-sizing: border-box;
+-webkit-tap-highlight-color: transparent;
+outline: 0px;
+border: 0px;
+margin: 0px;
+cursor: pointer;
+user-select: none;
+vertical-align: middle;
+appearance: none;
+text-decoration: none;
+font-family: Roboto, Helvetica, Arial, sans-serif;
+font-weight: 500;
+letter-spacing: 0.02857em;
+min-width: 64px;
+transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms, box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms, border-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms, color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+text-transform: none;
+box-shadow: none;
+color: rgb(255, 255, 255);
+background-color: #f67912;
+border-radius: 5px;
+font-size: 16px;
+line-height: 24px;
+padding: 11px 24px;
+}
+.create-btn:hover{
+  background-color: #e27113;
+}
+
+/* .logo{
+width: 150px;
+} */
+.top-header{
+  display: flex !important;
+  justify-content: space-between !important;
+  margin: 10px 20px;
+}
+li{
+  /* margin: 0 15px !important; */
+}
+
+.mainleft h2{
+margin: 10px 0px 8px;
+    font-family: Roboto, Helvetica, Arial, sans-serif;
+    border-radius: 5px;
+    width: 100%;
+    font-size: 36px;
+    line-height: 44px;
+    font-weight: 700;
+    color: rgb(38, 68, 136);
+    letter-spacing: 0.83px;}
+    .mainleft h5{
+    margin: 20px 0px 8px;
+    font-family: Roboto, Helvetica, Arial, sans-serif;
+    border-radius: 5px;
+    width: 100%;
+    font-size: 24px;
+    line-height: 32px;
+    color: rgb(38, 68, 136);
+    font-weight: 500;
+    letter-spacing: 0.55px;
+    }
+    .banner-contianer{
+      margin-top: 80px;
+    }
+    .mainleft .btn-primary{
+    margin-top: 30px;
+    margin-bottom: 20px;
+    }
+    .mainleft h6 span{
+      color: rgb(214, 96, 37);
+      cursor: pointer;
+    }
+    .mainleft p{
+      margin: 0px;
+      font-family: Roboto, Helvetica, Arial, sans-serif;
+      letter-spacing: 0.00938em;
+      border-radius: 5px;
+      width: 100%;
+      font-size: 16px;
+      line-height: 24px;
+      font-weight: 400;
+    }
+    .mainright img{
+      width: 100%;
+    }

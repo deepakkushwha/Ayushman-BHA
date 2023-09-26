@@ -1,0 +1,56 @@
+.stepper-btn {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+
+a,
+span {
+    line-height: 27px !important;
+}
+
+a:not([href]):not([class]) {
+    font-weight: 600 !important;
+}
+
+div {
+    font-weight: 400 !important;
+}
+
+.invalid-input {
+    border: 1px solid red !important;
+}
+
+.collection-stepper .aadhar-container {
+    width: 650px;
+}
+
+.vi__character {
+    border-radius: 5px !important;
+    font-size: 18px;
+    border: 1px solid #dee2e6;
+}
+
+:where(.vi__character--inactive) {
+    background-color: #f1f1f1 !important;
+}
+
+.sugg-data {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.data-list {
+    background: #d7d4d4;
+    padding: 6px 16px;
+    cursor: pointer;
+    border-radius: 10px;
+
+}
+.collection-stepper{
+    label{display: revert;}
+    .child-checkbox{ margin-left: 30px;}
+    .errorcheckbox{  border: 2px solid red !important;}
+    .accordion-body  input,label{ cursor: pointer;}
+}
